@@ -8,9 +8,10 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-image: url("/images/japanese-neon-q93q1ucdmr26r5lr.jpg");
+    background-image: url("https://p1.pxfuel.com/preview/385/232/922/shinjuku-tokyo-neon-night-signs-cyberpunk.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
     color: #fcfdfb;
 }
 .card{
@@ -58,9 +59,9 @@
     padding: 15px 20px; 
     border: none;
     border-radius: 5px;
-    background: transparent; /* Sin color de fondo */
-    border: 2px solid #e5875f; /* Borde de color neón naranja */
-    box-shadow: 0 0 6px #e5875f, 0 0 6px #e5875f; /* Efecto de luz */
+    background-color: rgba(82, 65, 57, 0.37);/* Sin color de fondo */
+    border: 2px solid #e0774b; /* Borde de color neón naranja */
+    box-shadow: 0 0 6px #e0774b, 0 0 6px #e0774b; /* Efecto de luz */
     color: #fcfdfb;
     font-size: 16px;
     font-weight: 400;
@@ -84,11 +85,11 @@
     width: 30px;  
     height: 30px;
     object-fit: contain; /* Evita distorsión */
-    filter: drop-shadow(0 0 10px #e5875f) drop-shadow(0 0 20px #e5875f); /* Efecto de luz */
+    filter: drop-shadow(0 0 10px #d7714a) drop-shadow(0 0 20px #d7714a); /* Efecto de luz */
     transition: transform 0.3s ease-in-out; /* Animación suave */
 }
 
 .redes-sociales a img:hover {
-    filter: drop-shadow(0 0 15px #e5875f) drop-shadow(0 0 30px #e5875f); /* Efecto de luz */
+    filter: drop-shadow(0 0 15px #d7714a) drop-shadow(0 0 30px #d7714a); /* Efecto de luz */
     transform: scale(1.2); /* Hace zoom al pasar el mouse */
 }
