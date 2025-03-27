@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+.fondo {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("/images/japanese-neon-q93q1ucdmr26r5lr.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fcfdfb;
+}
+.card{
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    margin: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    width: 350px;
+    text-align: center; /* Centra el texto a todos dentro de la carta */
+}
+
+.card img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    object-fit: cover; /* Evita la distorsión y recorta la imagen si es necesario */
+}
+.sobre-mi{
+    margin-bottom: 25px;
+}
+.sobre-mi h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.sobre-mi p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.contacto h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.button{
+    text-decoration: none;
+    padding: 15px 20px; 
+    border: none;
+    border-radius: 5px;
+    background: transparent; /* Sin color de fondo */
+    border: 2px solid #e5875f; /* Borde de color neón naranja */
+    box-shadow: 0 0 6px #e5875f, 0 0 6px #e5875f; /* Efecto de luz */
+    color: #fcfdfb;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
+    cursor: pointer; /*cambia el cursor a una manito */
+    margin-bottom: 12px;
+    transition: transform 0.3s ease-in-out; /* Animación suave */
+    
+}
+.button:hover{
+    transform: scale(1.02); /* Hace zoom al pasar el mouse */
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre elementos */
+}
+
+.redes-sociales a img {
+    width: 30px;  
+    height: 30px;
+    object-fit: contain; /* Evita distorsión */
+    filter: drop-shadow(0 0 10px #e5875f) drop-shadow(0 0 20px #e5875f); /* Efecto de luz */
+    transition: transform 0.3s ease-in-out; /* Animación suave */
+}
+
+.redes-sociales a img:hover {
+    filter: drop-shadow(0 0 15px #e5875f) drop-shadow(0 0 30px #e5875f); /* Efecto de luz */
+    transform: scale(1.2); /* Hace zoom al pasar el mouse */
+}
